@@ -1,0 +1,9 @@
+a=input().split()
+freq={}
+for i in a:
+    if i in freq:
+        freq[i]=freq[i]+1
+    else:
+        freq[i]=1
+for i, freq in freq.items():
+    print(f"{i}: {freq}")
