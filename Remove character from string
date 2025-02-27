@@ -1,0 +1,7 @@
+a = input()
+r = input()
+result = ""
+for i in a:
+    if i != r:
+        result = result+i
+print(result)
