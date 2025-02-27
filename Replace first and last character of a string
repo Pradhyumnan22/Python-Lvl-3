@@ -1,0 +1,6 @@
+a=input()
+swap1=a[-1]
+swap2=a[1:-1]
+swap3=a[0]
+res=swap1+swap2+swap3
+print(res)
