@@ -1,0 +1,10 @@
+a = input()
+char = input()
+result = ""
+for i in a:
+    if i == char:
+        result = result + '$'
+    else:
+        result = result + i
+print(result)
+
