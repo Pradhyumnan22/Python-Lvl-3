@@ -1,0 +1,13 @@
+a=input()
+freq={}
+for i in a:
+    if i in freq:
+        freq[i]=freq[i]+1
+    else:
+        freq[i]=1
+for char in a:
+    if freq[char]>1:
+        print(char)
+        break
+else:
+    print("No repeating character.")
