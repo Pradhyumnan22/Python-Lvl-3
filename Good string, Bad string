@@ -1,0 +1,11 @@
+a= input()
+vowels = "aeiouAEIOU"
+flag = False
+for i in a:
+    if i in vowels:
+        flag = True
+        break
+if flag==True:
+    print("Good string")
+else:
+    print("Bad string")
