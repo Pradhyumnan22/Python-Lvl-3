@@ -1,0 +1,5 @@
+list1 = []
+a=input()
+list1.append(a)
+tuple1 = tuple(list1)
+print(tuple1)
