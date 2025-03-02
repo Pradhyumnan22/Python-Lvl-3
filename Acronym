@@ -1,0 +1,5 @@
+a= input().split()
+acronym = ""
+for i in a:
+    acronym = acronym +i[0].upper()
+print(acronym)
