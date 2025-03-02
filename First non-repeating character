@@ -6,7 +6,7 @@ for i in a:
     else:
         freq[i]=1
 for char in a:
-    if freq[char]=1:
+    if freq[char]==1:
         print(char)
         break
 else:
